@@ -11,6 +11,29 @@
 
     </head>
     <body>
+        <nav class="navbar navbar-expand-lg bg-light ">
+            <div class="container-fluid">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Beranda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Data Anggota</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Transaksi Teller</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
         <!-- Bootstrap JS -->
         <script src="<?=base_url('assets/bootstrap-5.2.2-dist/js/bootstrap.min.js')?>" type="text/javascript" ></script>
         <!-- jQuery -->
