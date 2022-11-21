@@ -12,11 +12,10 @@ class Welcome extends CI_Controller {
 	}
 
 	public function login(){
-		$this->load->view('template');
+		$this->load->view('login');
 	}
 
-	public function doLogin(){
-		$input = $this->input->post();
-		if($input['username']);
+	public function home(){
+		$this->load->view('home');
 	}
 }
