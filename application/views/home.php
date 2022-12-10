@@ -222,7 +222,7 @@
         </nav>
 
         <div class="main">
-            <div class="container">
+            <div class="container" style="display: contents">
                 <div class="row">
                     <div class="col-9">
                         <div class="row">
